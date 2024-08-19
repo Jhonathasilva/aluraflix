@@ -1,23 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALURAFLIX - Vídeos</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            font-size: 2rem;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .video-container {
+            display: flex;
+            overflow-x: auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .video-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .video-container::-webkit-scrollbar-thumb {
+            background-color: #333;
+            border-radius: 10px;
+        }
+
+        .video-item {
+            flex: 0 0 auto;
+        }
+
+        iframe {
+            border-radius: 10px;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
 <body>
 
-<header>ALURAFLIX</header>
+    <header>
+        <h1>ALURAFLIX</h1>
+    </header>
 
+    <div class="video-container">
+        <!-- Vídeos relacionados a Marvel e DC -->
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RIc3H9jvpaQ" 
+            title="Marvel Studios' Thunderbolts | Official Teaser Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
-<h1>HERÓIS MAIS FORTES DA MARVEL QUE O DEADPOOL JÁ MATO</h1> 
-<p>#Deadpool</p>
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/68sh4A2mJZ4" 
+            title="Batman: The Brave and The Bold Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0qceF4H9bD0" 
+            title="Spider-Man: Beyond the Spider-Verse | Official Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_QzIczSxk90" 
+            title="Wonder Woman 3 | Official Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
+        <!-- Vídeos relacionados a animes -->
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2XV5qRx6FRY" 
+            title="Jujutsu Kaisen Season 2 | Official Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MNGKfzCZjIo?si=Yic_42ShHOlrqmXJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eGhdmRyt0Xs" 
+            title="My Hero Academia Season 7 | Official Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V3AhR2cW6rE" 
+            title="Demon Slayer: Entertainment District Arc | Official Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NmtVtGn_5Ow" 
+            title="One Piece: Red | Official Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V1s92LlbwIM" 
+            title="Attack on Titan Season 5 | Official Trailer 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
 
-
-  <h1>É O FIM DO UCM? ENTENDA COMO VAI SER VINGADORES DOOMSDAY!</h1>
-<p>#Marvel</p>
-
-
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dIlyWM-9wQ0?si=d0Vf6nZ-U4NuzZXr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
